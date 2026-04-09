@@ -1,0 +1,23 @@
+{
+  "name": "small_api",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "test": "npx ts-node src/api.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
